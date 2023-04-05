@@ -10,4 +10,8 @@ console.log("y: ", y);
 
 if (x === y) {
   console.log("The values are identical.");
+} else if (x > y) {
+  console.log(x);
+} else {
+  console.log(y);
 }
