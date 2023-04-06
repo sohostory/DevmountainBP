@@ -216,13 +216,14 @@ switch (letterGrade) {
 */
 
 //Code Here
+
 for (let i = 1; i <= 100; i++) {
   if (i % 15 === 0) {
-    console.log("fizzbuzz");
+    console.log("Devmountain");
   } else if (i % 3 === 0) {
-    console.log("fizz");
+    console.log("dev");
   } else if (i % 5 === 0) {
-    console.log("buzz");
+    console.log("mountain");
   } else {
     console.log(i);
   }
