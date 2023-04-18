@@ -1,0 +1,41 @@
+.wrapper {
+}
+
+.boxone {
+  background-color: #d8d8d8;
+  height: 100px;
+  position: relative;
+}
+
+.bluebox {
+  height: 50px;
+  width: 50px;
+  background-color: #5b8fdc;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+.boxtwo {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.boxthree {
+  background-color: #5b8fdc;
+  height: 200px;
+}
+
+.boxfour {
+  background-color: #7be0c3;
+  height: 200px;
+}
+
+.boxfive {
+  background-color: #c2e791;
+  height: 200px;
+}
+
+.boxsix {
+  background-color: #f5e752;
+  height: 200px;
+}

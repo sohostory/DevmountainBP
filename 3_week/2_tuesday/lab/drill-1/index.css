@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex > * {
+  flex: 1 100%;
+}
+
+.top {
+  background-color: #444444;
+  height: 100px;
+}
+
+.left,
+.right,
+.main {
+  background-color: #d8d8d8;
+  flex: 1 0 0;
+  height: 500px;
+}
+
+.centertop {
+  background-color: #efefef;
+  height: 400px;
+}
+
+.centerbottom {
+  background-color: #222222;
+  height: 100px;
+}

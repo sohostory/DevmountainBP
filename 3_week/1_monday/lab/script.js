@@ -123,7 +123,7 @@ function diplayJoke(joke) {
 
 function tellMe(joke) {
   VoiceRSS.speech({
-    key: "",
+    key: "28e9dd14f2fc49e0bb0bfc326bfe1c97",
     src: joke,
     hl: "en-us",
     v: "Linda",
