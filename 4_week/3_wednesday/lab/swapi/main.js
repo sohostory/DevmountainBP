@@ -1,9 +1,10 @@
 const resident = document.querySelector("#getResidents");
 const answers = document.querySelector(".resident");
 
-function getResidents() {
+const getResidents = () => {
   axios.get("https://swapi.dev/api/planets/?search=Alderaan").then((res) => {
     let residents = res.data.results[0].residents;
+    console.log(res.data);
     for (let resident of residents) {
       axios.get(resident).then((res) => {
         const name = res.data.name;
@@ -13,6 +14,6 @@ function getResidents() {
       });
     }
   });
-}
+};
 
 resident.addEventListener("click", getResidents);
