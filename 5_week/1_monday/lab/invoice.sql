@@ -41,7 +41,7 @@ FROM invoice;
 -- 8. Get the total sum of the orders.
 
 
-SELECT SUM(total)
+SELECT SUM(total) AS total
 FROM invoice;
 
 -- 9. Update the invoice with an invoice_id of 5 to have a total order amount of 24.
