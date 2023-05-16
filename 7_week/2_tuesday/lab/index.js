@@ -266,4 +266,5 @@ function countLettersRoundTwo(str) {
 // ANSWER - countLettersRoundTwo: 0(n)
 
 // Q: Explain how you came to your conclusions about the space complexity of each function.
-// ANSWER: Both functions are creating a new object and adding to it. The first function is using a forEach loop, while the second function is using a for loop. Both functions are iterating through the string and adding to the object.
+// ANSWER: Both functions are creating a new object and adding to it. The first function is using a forEach loop, while the second function is using a for loop.
+// Both functions are iterating through the string and adding to the object.
